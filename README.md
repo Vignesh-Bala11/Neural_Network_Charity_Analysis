@@ -10,7 +10,7 @@ The purpose of this analysis to determine which companies should recieve loans f
 
    After looking at the data, I established that the target variable is the "IS_SUCCESSFUL" column. I then removed the "EIN" and "NAME" columns as they did not offer any relevant data that could help the model perform better. The remaining columns became the features for the model.
 
-    Compiling, Training and Evaluating the Model:
+   Compiling, Training and Evaluating the Model:
 
    The initial model consisted of 8 neurons in the first layer and 5 in the second layer. Both layers used the "relu activation function and the output layer used the sigmoid activation layer. The preformance for the metrics are as follows:
    
